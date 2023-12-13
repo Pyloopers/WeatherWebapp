@@ -1,0 +1,77 @@
+<!-- College Minor Project by Amit Kumar, Sahil Dhaniya and Rahul -->
+<!-- Project Details: 
+Name : Weather Detector
+Description : This is a simple weather detector which will tell you the current temperature of your location. It also tells about whether it's sunny or rain.
+Secondly it's a web base project so it's platform independent and can be used by any device user with internet connectivity.
+
+
+ -->
+<!-- Here we goes with the Bootstrap basic template to use css and js -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- User Css -->
+  <link rel="stylesheet" href="style.css" />
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+  <title>Weather Detector WebApp</title>
+</head>
+
+<body>
+  <!-- User JavaScript:  -->
+  <script src="script.js"></script>
+  <script src="script2.js"></script>
+
+  <!-- Optional JavaScript; choose one of the two! -->
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  <!-- Actual Coding starts Here -->
+  <h1 class="Header">Weather Detector</h1>
+  <div class="container">
+    <div class="left"></div>
+    <!-- Now we make a navbar -->
+    <div class="Earthgif">
+      <img class="earth" src="background.gif" alt="" srcset="" sizes="10%" />
+    </div>
+    
+    <div class="main">
+      <input type="text" id="locationInput" class="Location" placeholder="Enter location here :" />
+      <span id="detailsShow" style="color: white;" class="weatherDetails">weather    </span>
+      <!-- < type="Submit" id="submitBtn" > -->
+      <button type="button" id="submitBtn">Submit</button>
+    </div>
+  </div>
+  <div class="bottom">
+    <!-- It's Bottom of the webpage -->
+    <p style="
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 40px;
+          margin: auto;
+          max-width: 40%;
+        ">
+      It's a project to demonstrate, How we can use an API in our project. An
+      API stands for Application Programming Interface, API used here is
+      available at
+      <a style="color: orange" href="https://rapidapi.com/hub">Rapidapi</a>.
+      Kindly give your valuable feedbacks at pailoopers@gmail.com.
+    </p>
+  </div>
+</body>
+
+</html>
+<!-- ? -->
